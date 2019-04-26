@@ -9,9 +9,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "publishConfig": {
+    "registry": "http://dotnexustestt.dot.state.wi.us:8081/repository/NPM-DOT/"
+  },
+  "private": false,
   "dependencies": {
-    "@angular/animations": "~7.2.0",
     "@angular/common": "~7.2.0",
     "@angular/compiler": "~7.2.0",
     "@angular/core": "~7.2.0",
